@@ -490,3 +490,8 @@ footer {
       .form-row button:active {
         background-color: #407fc7;
       }
+
+      .greeting {
+        color: red;
+        font-size: 10px;
+      }
