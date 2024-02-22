@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="iniciologo">
+                <!--<h1>ATUNBOT.NET</h1>-->
+                <a href="index.html">ATUNBOT.NET</a>
+            </div>
+            <nav>
+                <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="#secinc">About Me</a></li>
+                    <li><a href="#laburo-title">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section class="bienvenida">
+                <p>Hello! It´s a pleasure to have you here</p>
+                <h2>Below you can learn more about me</h2>
+            </section>
+            <section id="secinc">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2>About me</h2>
+                    <p class="parrafo2"> <strong> My name is Rodrigo, I was born in Melo and actually I live in Tambores. <br> I present a great enthusiasm for the videogames and the current technologies. <br> I would like to learn more about programation to continue helping the society with my knowledge. </strong></p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/hero-img.jpg" alt="imagen personal" width="250" height="250">
+                </div>
+            </section>
+            </section>
+            <section class="seccion-2">
+                <h2>My favorite hobbit</h2>
+                <img src="img/hobby.jpg" alt="imagen de carrusel">
+            </section>
+            <div id="laburo-title">
+                <h2>My Works</h2>
+            </div>
+            <section id="trabajos">
+                <!--aca empiezan los laburos-->
+                <div class="trabajo">
+                    <img src="img/laburo1.jpg" alt="imagen de primer laburo">
+                    <h1>Web Development</h1>
+                    <p>As a digital enthusiast, I have dedicated time and effort to acquiring solid skills in the field of web development.</p>
+                    <a href="https://drive.google.com/drive/folders/1MBM-BE08EUngub_ajlsA3e-2aMPYELMR?usp=sharing" target="_blank">See portfolio</a>
+                </div>
+                <div class="trabajo">
+                    <img src="img/laburo2.jpg" alt="imagen de segundo laburo">
+                    <h1>Testing</h1>
+                    <p>Being an enthusiast of the digital world, I have invested time and dedication in developing solid skills in the field of testing.</p>
+                    <a href="https://drive.google.com/drive/folders/1sVFz-cy9pRW03Wz_4izzgoPqjBznDXMB?usp=sharing" target="_blank">See portfolio</a>
+                </div>
+                <div class="trabajo">
+                    <img src="img/laburo3.jpg" alt="imagen de tercer laburo">
+                    <h1>Video Edition</h1>
+                    <p>During my academic development, I have had the opportunity to work as a video editor, developing skills that allow me to achieve high quality results.</p>
+                    <a href="https://drive.google.com/drive/folders/1jcDW7DuEoR598hPrzaDEdHmuj2yalMW7?usp=sharing" target="_blank">See portfolio</a>
+                </div>
+                <!--hasta aca van los laburos-->
+            </section>
+        </main>
+        
+        <section id="contact">
+        <footer class="form-header">
+            <h1>Contact</h1>
+            <p><em>¡I Wait You Query!</em></p>
+      
+            <form action="" method="get" class="formulario" id="form">
+              <div class="form-row">
+                  <label for="nombre">Name</label>
+                  <input id="nombre" name="nombre" type="text" />
+                </div>
+      
+                <div class="form-row">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="atuncito@gmail.com"
+                    required
+                  />
+                </div>
+      
+                <div class="form-row">
+                  <label for="mensaje">Menssage</label>
+                  <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+      
+                <div class="form-row">
+                  <button type="submit" id="submit">Send</button>
+                </div>
+                <p class="alertas" id="alertas"></p>
+            </form>
+        </footer>
+    </section>
+
+        <footer class="ultimof">
+            <p>© 2024 - All rights reserved.</p>
+            <div id="contacto">
+            <nav>
+                <a href="https://wa.me/59892606205/" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp" width="20" height="20"></a></li>
+                <a href="https://www.linkedin.com/in/rodrigo-ant%C3%BAnez-986631296/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn" width="20" height="20"></a></li>
+                <a href="mailto:rodri2017tacua@gmail.com" target="_blank"><img src="img/gmail.png" alt="Gmail" width="20" height="20"></a></li>
+                <a href="https://github.com/atwncito" target="_blank"><img src="img/github.png" alt="GitHub" width="20" height="20"></a></li>
+            </nav>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
